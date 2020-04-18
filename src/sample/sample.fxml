@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="166.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nick" />
+      <TextField editable="true" fx:id="nickname1" layoutX="206.0" layoutY="130.0" />
+      <Button fx:id="buton" layoutX="376.0" layoutY="130.0" mnemonicParsing="false" onAction="#buttonAction" text="onayla" />
+   </children>
+</Pane>
